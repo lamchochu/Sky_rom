@@ -31,7 +31,7 @@ jobs:
     - name: Clone device sources
       run: |
         cd lineage
-        git clone https://github.com/<your-username>/<your-device-tree-repo>.git device/xiaomi/sky
+        git clone https://github.com/<iamchochu>/<your-device-tree-repo>.git device/xiaomi/sky
         # Agar alag se vendor aur kernel tree hai to:
         # git clone <vendor-link> vendor/xiaomi/sky
         # git clone <kernel-link> kernel/xiaomi/sky
