@@ -21,7 +21,7 @@ jobs:
       run: |
         mkdir lineage
         cd lineage
-        repo init -u https://github.com/LineageOS/android.git -b lineage-21.0
+        repo init -u https://github.com/VoltageOS/manifest.git -b 14
 
     - name: Sync sources
       run: |
